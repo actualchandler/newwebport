@@ -35,9 +35,12 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/main.jpg) no-repeat center center;
     background-size: cover;
+   background-attachment: fixed;
+   background-color: #000;
 }
+
 
 .intro-message {
     position: relative;
@@ -116,8 +119,9 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/think.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .banner h2 {
@@ -167,4 +171,34 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+/* === ABOUT CSS === */
+.profile-pic {
+    border-radius: 50%;
+    width: 55%;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+.skillz {
+    text-align: center;
+}
+
+.skillz img {
+    width: auto;
+    height: 75px;
+}
+
+.skillz figure {
+    height: 100px;
+}
+
+.skillz p {
+    font-weight: 100;
+    font-size: 150%;
+}
+
+.skillz:last-child {
+    margin: 25px 0;
 }
